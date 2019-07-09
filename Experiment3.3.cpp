@@ -7,13 +7,14 @@ int main ()
 	cout << "*** SORTING ***" << endl;
 	cout << endl << endl;
 	
-	
+	//ARRAY SIZE and ARRAY CHARACTER INPUTS
 	char x[15];
 	int z;
 	cout << "Please Input Desired Array Size: "; cin >> z;
 	cout << endl;
 	cout << "Please Input any Desired Character: ";
 	
+	//ARITHMETIC TO INPUT VALUES INSIDE ARRAY
 	int y;
 	for (y=0; y < z; y++)
 	{
@@ -24,6 +25,7 @@ int main ()
 	cout << "SORTING IN DESCENDING ORDER..." << endl;
 	cout << endl << endl;
 	
+	//ARITHMETIC OF BUBBLE SORTING
 	int w, q, temp;
 	for (w = 0; w < z; w++)
 	{
@@ -39,6 +41,7 @@ int main ()
 		}
 	}
 	
+	//OUTPUT ARITHMETIC
 	int a;
 	cout << "OUTPUT: ";
 	for (a=0; a < y; a++)
