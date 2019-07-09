@@ -10,6 +10,7 @@ int main ()
 	cout << "Please Enter the Temperature of Provinces A, B, and C for a week." << endl;
 	cout << endl;
 	
+	//ARITHMETIC TO INPUT TEMP. IN EACH DAY OF ALL PROVINCES
 	char P[3] = {'A', 'B', 'C'};
 	int x, y[7];
 	for (x = 0; x < 3; x++)
@@ -27,7 +28,8 @@ int main ()
 	
 	cout << "Displaying Values:" << endl;
 	cout << endl;
-
+	
+	//ARITHMETIC TO OUTPUT TEMP. IN EACH DAY OF ALL PROVINCES
 	int w;
 	for (w = 0; w < 3; w++)
 	{
